@@ -36,4 +36,4 @@ jobs:
       run: pip install -r requirements.txt
     # 运行python脚本文件，其中的参数取secrets中配置的SCKEY
     - name: Working
-      run: python jdy.py ${{ secrets.USER }} &{{ secrets.PASS }} &{{ secrets.SCKEY }}
+      run: python jdy.py ${{ secrets.USER }} ${{ secrets.PASS }} ${{ secrets.SCKEY }}
