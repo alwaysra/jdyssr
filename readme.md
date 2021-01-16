@@ -1,19 +1,19 @@
-# ���SSR��¼��ǩ��
+# 筋斗云SSR登录并签到
 
-#### ��Ŀ����
+#### 项目介绍
 
-��¼���SSR ��ǩ��ʹ��Server�������������
+登录筋斗云SSR 并签到使用Server酱推送运行情况
 
-#### �ֶ����ã��������Խű��Ƿ�����ʹ�ã���ʱ�����Ƽ���
+#### 手动调用（仅供测试脚本是否还能用使用，定时任务不推荐）
 
-ʹ��python3.8.2����
+使用python3.8.2开发
 
-1. ��װ������
+1. 安装依赖：
 
 ```powershell
 pip install -r requirements.txt
 ```
 
-2. ���ýű���
+2. 调用脚本：
 
-���ű�Ϊ��`jdy_login_sign(requests).py`
+主脚本为：`jdy_login_sign.py`
