@@ -4,9 +4,9 @@ import requests
 import re
 import json
 
-loginurl = 'https://jdycloud.xyz/auth/login'
-userurl = 'https://jdycloud.xyz/user'
-signurl = 'https://jdycloud.xyz/user/checkin'
+loginurl = 'https://cyooo.co/auth/login'
+userurl = 'https://cyooo.co/user'
+signurl = 'https://cyooo.co/user/checkin'
 
 
 def login_sign(loginurl,userurl,userdata,signurl,SCKEY):
